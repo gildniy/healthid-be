@@ -1,0 +1,57 @@
+{% extends 'email_alerts/email_base.html' %} {% block inner_content %}
+<table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center">
+        <table class="email-content" width="100%" cellpadding="0" cellspacing="0">
+          <!-- Email Body -->
+          <tr>
+            <td class="email-body" width="100%" cellpadding="0" cellspacing="0">
+              <table
+                class="email-body_inner"
+                align="center"
+                width="570"
+                cellpadding="0"
+                cellspacing="0"
+              >
+                <!-- Body content -->
+                <tr>
+                  <td class="content-cell">
+                    <table
+                      class="body-action"
+                      align="center"
+                      width="100%"
+                      cellpadding="0"
+                      cellspacing="0"
+                    >
+                      <tr>
+                        <td align="center" style="font-size:15px;color: #424242;">
+                          <table
+                            width="100%"
+                            border="0"
+                            cellspacing="0"
+                            cellpadding="0"
+                          >
+                            <tr>
+                              <td align="left">
+                                <h3>Hello,</h3>
+                                <p>This is to notify you that the following products have gone below the specified weeks of inventory
+                                and may need to be reordered</p>
+                                  {% for product in products  %}
+                                  <li>Product-name: {{ product.0 }} --------- Quantity-Refill: {{ product.1 }} units</li>
+                                {% endfor %}
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+{% endblock inner_content %}

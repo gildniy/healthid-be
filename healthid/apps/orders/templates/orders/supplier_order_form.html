@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Supplier Order Form</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div id="container">
+      <div id="image-container">
+          <img width="210" height="60" src="https://res.cloudinary.com/health-id/image/upload/v1562774613/HealthID_full_logo.svg" alt="HealthID logo">
+      </div>
+      <div id="details-container">
+        <table>
+          <tr>
+            <td colspan="2" id="supplier-name-td">{{ detail.supplier.name }}</td>
+          </tr>
+          <tr>
+            <td colspan="2" id="order-number-td">{{ detail.get_supplier_order_number }}</td>
+          </tr>
+          <tr>
+            <td class="key-td">Deliver To:</td>
+            <td class="value-td">{{ detail.deliver_to_outlets }}</td>
+          </tr>
+          <tr>
+            <td class="key-td">Delivery Due:</td>
+            <td class="value-td">{{ detail.delivery_due_date }}</td>
+          </tr>
+          <tr>
+            <td class="key-td">Payment Due:</td>
+            <td class="value-td">{{ detail.payment_due_date }}</td>
+          </tr>
+        </table>
+      </div>
+        <div>
+            <table id="order-table">
+                <tr>
+                  <th>NAME</th>
+                  <th>QUANTITY</th>
+                  <th>UNIT COST</th>
+                  <th>PRICE</th>
+                </tr>
+                {% for item in detail.get_order_details %}
+                <tr>
+                  <td>{{ item.product | capfirst }}</td>
+                  <td>{{ item.quantity }}</td>
+                  <td>$</td>
+                  <td>$</td>
+                </tr>
+                {% endfor %}
+                  <tr id="total-tr">
+                      <td></td>
+                      <td></td>
+                      <td id="grand-total" colspan="2">
+                        GRAND TOTAL: $
+                      </td>
+                  </tr>
+              </table>
+        </div>
+        <div id="notes-container">
+            <form>
+              <label>Notes</label>
+              <textarea id="notes-field">
+             
+              </textarea>
+            </form>
+        </div>
+  </div>
+</body>
+</html>

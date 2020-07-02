@@ -1,0 +1,161 @@
+[
+  {
+    "model": "authentication.user",
+    "pk": "aul5xrp73",
+    "fields": {
+      "last_login": null,
+      "email": "you.for@example.com",
+      "password": "pbkdf2_sha256$120000$P3KswX6ny17M$HaHKRjJ4aYa4wyz8JvaRb399YK55bhxsUz9se9q9LP8=",
+      "mobile_number": "254786299914",
+      "is_active": true,
+      "is_superuser": false,
+      "first_name": null,
+      "last_name": null,
+      "username": null,
+      "secondary_email": null,
+      "secondary_phone_number": null,
+      "created_at": "2019-03-30",
+      "is_admin": false,
+      "is_staff": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "preference.vat",
+    "pk": "123456789",
+    "fields": {
+      "rate": 10.5
+    }
+  },
+  {
+    "model": "preference.timezone",
+    "pk": "285461788",
+    "fields": {
+      "name": "okay",
+      "time_zone": "cool"
+    }
+  },
+  {
+    "model": "preference.currency",
+    "pk": "123456789",
+    "fields": {
+      "name": "okay",
+      "symbol": "$",
+      "symbol_native": "$$",
+      "decimal_digits": 2,
+      "rounding": 2,
+      "code": "okay",
+      "name_plural": "okays"
+    }
+  },
+  {
+    "model": "preference.outletpreference",
+    "pk": "123456789",
+    "fields": {
+      "outlet_timezone": "285461788",
+      "outlet_currency": "123456789",
+      "vat_rate": "123456789"
+    }
+  },
+  {
+    "model": "business.business",
+    "pk": "123456789",
+    "fields": {
+      "trading_name": "okay",
+      "legal_name": "cool",
+      "phone_number": "0123456789",
+      "business_email": "business@email.com",
+      "website": "jakh",
+      "facebook": "ajhsk",
+      "twitter": "jkae",
+      "instagram": "sjdkd",
+      "logo": "http://127.0.0.1:8000/admin/outlets/country/",
+      "user": "aul5xrp73"
+    }
+  },
+  {
+    "model": "outlets.outletkind",
+    "pk": 1,
+    "fields": {
+      "name": "okay"
+    }
+  },
+  {
+    "model": "outlets.country",
+    "pk": 1,
+    "fields": {
+      "name": "okay"
+    }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": {
+      "name": "okay",
+      "country": 1
+    }
+  },
+  {
+    "model": "outlets.outlet",
+    "pk": 1,
+    "fields": {
+      "kind": 1,
+      "name": "dope",
+      "city": 1,
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "outlets.outletuser",
+    "pk": 1,
+    "fields": {
+      "outlet": 1,
+      "user": "aul5xrp73"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 1,
+    "fields": {
+      "name": "tablets"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "prescription",
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "outlets.country",
+    "pk": 1,
+    "fields": {
+      "name": "Uganda"
+    }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": {
+      "name": "Kampala",
+      "country": 1
+    }
+  },
+  {
+    "model": "orders.tier",
+    "pk": 1,
+    "fields": {
+      "name": "manufacturer"
+    }
+  },
+  {
+    "model": "orders.paymentterms",
+    "pk": 1,
+    "fields": {
+      "name": "cash on delivery"
+    }
+  }
+]

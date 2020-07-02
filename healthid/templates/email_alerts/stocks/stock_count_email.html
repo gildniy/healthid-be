@@ -1,0 +1,28 @@
+{% extends 'email_alerts/email_base.html' %}
+{% block inner_content %}
+<div>
+      <div class="email_body">
+        <div class="email_body_cont">
+          <div class="email_body_a">Sender Email:</div>
+          <div class="email_body_b">{{ email }}</div>
+        </div>
+
+        <div class="email_body_cont password">
+          <div class="email_body_a">Quantity Counted:</div>
+          <div class="email_body_b2">{{ quantity_counted }}</div>
+        </div>
+
+        <div class="email_body_cont password">
+          <div class="email_body_a">Variance Reason:</div>
+          <div class="email_body_b2">{{ variance_reason }}</div>
+        </div>
+
+        <br>
+        <div class="email_body_cont">
+          <div class="email_body_a">Current Product Quantity:</div>
+          <div class="email_body_b1"> <span>{{ product_quantity }}</span>
+        </div>
+      </div>
+    </div>
+   </div>
+ {% endblock inner_content %}

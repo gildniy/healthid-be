@@ -1,0 +1,379 @@
+[
+  {
+    "model": "preference.vat",
+    "pk": "123456789",
+    "fields": {
+      "rate": 10.5
+    }
+  },
+  {
+    "model": "preference.timezone",
+    "pk": "285461788",
+    "fields": {
+      "name": "okay",
+      "time_zone": "cool"
+    }
+  },
+  {
+    "model": "preference.currency",
+    "pk": "123456789",
+    "fields": {
+      "name": "okay",
+      "symbol": "$",
+      "symbol_native": "$$",
+      "decimal_digits": 2,
+      "rounding": 2,
+      "code": "okay",
+      "name_plural": "okays"
+    }
+  },
+  {
+    "model": "preference.outletpreference",
+    "pk": "123456789",
+    "fields": {
+      "outlet_timezone": "285461788",
+      "outlet_currency": "123456789",
+      "vat_rate": "123456789",
+      "outlet_id": 1
+    }
+  },
+  {
+    "model": "business.business",
+    "pk": "123456789",
+    "fields": {
+      "trading_name": "okay",
+      "legal_name": "cool",
+      "phone_number": "0123456789",
+      "business_email": "business@email.com",
+      "website": "jakh",
+      "facebook": "ajhsk",
+      "twitter": "jkae",
+      "instagram": "sjdkd",
+      "logo": "http://127.0.0.1:8000/admin/outlets/country/",
+      "user": "aul5xrp75"
+    }
+  },
+  {
+    "model": "outlets.outletkind",
+    "pk": 1,
+    "fields": {
+      "name": "okay"
+    }
+  },
+  {
+    "model": "outlets.country",
+    "pk": 1,
+    "fields": {
+      "name": "okay"
+    }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": {
+      "name": "okay",
+      "country": 1
+    }
+  },
+  {
+    "model": "outlets.outlet",
+    "pk": 1,
+    "fields": {
+      "kind": 1,
+      "name": "dope",
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "outlets.outlet",
+    "pk": 2,
+    "fields": {
+      "kind": 1,
+      "name": "cool",
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "outlets.outletuser",
+    "pk": 1,
+    "fields": {
+      "outlet": 1,
+      "user": "aul5xrp73",
+      "is_active_outlet": true
+    }
+  },
+  {
+    "model": "outlets.outletuser",
+    "pk": 2,
+    "fields": {
+      "outlet": 2,
+      "user": "aul5xrp74",
+      "is_active_outlet": true
+    }
+  },
+  {
+    "model": "outlets.outletuser",
+    "pk": 3,
+    "fields": {
+      "outlet": 1,
+      "user": "aul5xrp74"
+    }
+  },
+  {
+    "model": "outlets.outletuser",
+    "pk": 4,
+    "fields": {
+      "outlet": 1,
+      "user": "aul5xrp75"
+    }
+  },
+  {
+    "model": "sales.promotiontype",
+    "pk": "123456789",
+    "fields": {
+      "name": "Special"
+    }
+  },
+  {
+    "model": "sales.promotiontype",
+    "pk": "123456790",
+    "fields": {
+      "name": "Recommended"
+    }
+  },
+  {
+    "model": "sales.promotion",
+    "pk": "1",
+    "fields": {
+      "title": "6 to 12 months",
+      "promotion_type_id": "123456790",
+      "description": "6 to 12 months of expiration",
+      "discount": 20,
+      "outlet_id": 1
+    }
+  },
+  {
+    "model": "sales.promotion",
+    "pk": "2",
+    "fields": {
+      "title": "3 to 6 months",
+      "promotion_type_id": "123456790",
+      "description": "3 to 6 months of expiration",
+      "discount": 30,
+      "outlet_id": 1
+    }
+  },
+  {
+    "model": "sales.promotion",
+    "pk": "3",
+    "fields": {
+      "title": "Less than a month",
+      "promotion_type_id": "123456790",
+      "description": "Less than a month of expiration",
+      "discount": 40,
+      "outlet_id": 1
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 1,
+    "fields": {
+      "name": "tablets"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "prescription",
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "orders.tier",
+    "pk": 1,
+    "fields": {
+      "name": "manufacturer"
+    }
+  },
+  {
+    "model": "orders.paymentterms",
+    "pk": 1,
+    "fields": {
+      "name": "terms"
+    }
+  },
+  {
+    "model": "orders.suppliers",
+    "pk": 1,
+    "fields": {
+      "name": "first",
+      "tier": 1,
+      "user": "aul5xrp73",
+      "is_approved": true
+    }
+  },
+  {
+    "model": "orders.suppliers",
+    "pk": 2,
+    "fields": {
+      "name": "second",
+      "tier": 1,
+      "supplier_id": "sdssdhk",
+      "user": "aul5xrp73",
+      "is_approved": true
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "product_category": 1,
+      "product_name": "fsdf",
+      "dispensing_size": 1,
+      "sku_number": "aidbfk",
+      "is_approved": true,
+      "description": "fdsegfsdg",
+      "brand": "dsfsdf",
+      "manufacturer": "asfasf",
+      "vat_status": true,
+      "sales_price": 10.0,
+      "nearest_expiry_date": "2020-12-12",
+      "preferred_supplier": 1,
+      "backup_supplier": 1,
+      "loyalty_weight": 1,
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "product_category": 1,
+      "product_name": "efsdf",
+      "dispensing_size": 1,
+      "sku_number": "aidbfk",
+      "is_approved": true,
+      "description": "fdsegfsdg",
+      "brand": "dsfsdf",
+      "manufacturer": "asfasf",
+      "vat_status": true,
+      "sales_price": 10.0,
+      "nearest_expiry_date": "2020-12-12",
+      "preferred_supplier": 1,
+      "backup_supplier": 1,
+      "loyalty_weight": 2,
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "product_category": 1,
+      "product_name": "kljklnfd",
+      "dispensing_size": 1,
+      "sku_number": "aidbfk",
+      "is_approved": true,
+      "description": "fdsegfsdg",
+      "brand": "dsfsdf",
+      "manufacturer": "asfasf",
+      "vat_status": true,
+      "sales_price": 10.0,
+      "nearest_expiry_date": "2020-12-12",
+      "preferred_supplier": 1,
+      "backup_supplier": 1,
+      "loyalty_weight": 3,
+      "business": "123456789"
+    }
+  },
+  {
+    "model": "products.batchinfo",
+    "pk": "123456789",
+    "fields": {
+      "supplier": 1,
+      "product": 1,
+      "date_received": "2019-06-20",
+      "expiry_date": "2019-05-20",
+      "user_id": "aul5xrp73"
+    }
+  },
+  {
+    "model": "products.batchinfo",
+    "pk": "098765432",
+    "fields": {
+      "supplier": 1,
+      "product": 2,
+      "date_received": "2019-07-20",
+      "expiry_date": "2019-06-20",
+      "user_id": "aul5xrp73"
+    }
+  },
+  {
+    "model": "products.batchinfo",
+    "pk": "345678912",
+    "fields": {
+      "supplier": 1,
+      "product": 3,
+      "date_received": "2019-06-20",
+      "expiry_date": "2019-08-20",
+      "user_id": "aul5xrp73",
+      "service_quality": 5,
+      "delivery_promptness": false
+    }
+  },
+  {
+    "model": "products.Quantity",
+    "pk": "123456789",
+    "fields": {
+      "batch": "123456789",
+      "proposed_by": "aul5xrp73",
+      "quantity_received": 10,
+      "is_approved": true,
+      "quantity_remaining": 10
+    }
+  },
+  {
+    "model": "products.Quantity",
+    "pk": "098765432",
+    "fields": {
+      "batch": "098765432",
+      "proposed_by": "aul5xrp73",
+      "quantity_received": 15,
+      "is_approved": true,
+      "quantity_remaining": 15
+    }
+  },
+  {
+    "model": "products.Quantity",
+    "pk": "345678912",
+    "fields": {
+      "batch": "345678912",
+      "proposed_by": "aul5xrp73",
+      "quantity_received": 20,
+      "quantity_remaining": 20,
+      "is_approved": true
+    }
+  },
+  {
+    "model": "profiles.Profile",
+    "pk": "1",
+    "fields": {
+      "loyalty_member": true
+    }
+  },
+  {
+    "model": "profiles.Profile",
+    "pk": "2",
+    "fields": {
+      "loyalty_member": true
+    }
+  },
+  {
+    "model": "profiles.Profile",
+    "pk": "3",
+    "fields": {
+      "loyalty_member": true
+    }
+  }
+]

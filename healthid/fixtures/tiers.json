@@ -1,0 +1,51 @@
+[
+    {
+        "model": "orders.tier",
+        "pk": 1,
+        "fields": {
+            "name": "manufacturer"
+        }
+    },
+    {
+        "model": "orders.tier",
+        "pk": 2,
+        "fields": {
+            "name": "importer"
+        }
+    },
+    {
+        "model": "orders.tier",
+        "pk": 3,
+        "fields": {
+            "name": "1t wholesale"
+        }
+    },
+    {
+        "model": "orders.tier",
+        "pk": 4,
+        "fields": {
+            "name": "2t wholesaler"
+        }
+    },
+    {
+        "model": "orders.tier",
+        "pk": 5,
+        "fields": {
+            "name": "3t+ wholesaler"
+        }
+    },
+    {
+        "model": "orders.paymentterms",
+        "pk": 1,
+        "fields": {
+            "name": "cash on delivery"
+        }
+    },
+    {
+        "model": "orders.paymentterms",
+        "pk": 2,
+        "fields": {
+            "name": "on credit"
+        }
+    }
+]

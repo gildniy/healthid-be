@@ -1,0 +1,20 @@
+# Distribution / packaging
+.vscode
+__pycache__/
+*.pyc
+.idea/
+db.sqlite3
+.DS_Store
+.pytest_cache
+htmlcov/
+.coverage
+.coveragerc
+db.sqlite3
+.tox
+receipt.png
+healthid_db
+venv
+staticfiles
+.editorconfig
+local-debug.log
+.env

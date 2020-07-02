@@ -1,0 +1,22 @@
+{% extends 'email_alerts/email_base.html' %}
+{% block inner_content %}
+  <div>
+      <div class="email_body">
+        <div class="email_body_cont">
+          <div class="email_body_a">Outlet:</div>
+          <div class="email_body_b">{{ outlet_name }}</div>
+        </div>
+        <br>
+        <div class="email_body_cont">
+          <div class="email_body_a">Date:</div>
+          <div class="email_body_b1"> {{ start_date }} &nbsp; {{ start_time }}</span>
+          </div>
+        </div>
+        <br>
+        <div class="email_body_cont">
+          <div class="email_body_a">Consultation scheduled by:</div>
+          <div class="email_body_b1"> {{ first_name }}</span></div>
+        </div>
+      </div>
+  </div>
+{% endblock inner_content %}

@@ -1,0 +1,100 @@
+[
+  {
+    "model": "products.dispensingsize",
+    "pk": 1,
+    "fields": {
+      "name": "Tablets"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 2,
+    "fields": {
+      "name": "Cans"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 3,
+    "fields": {
+      "name": "Bottles"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 4,
+    "fields": {
+      "name": "Capsules"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 5,
+    "fields": {
+      "name": "Packs"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 6,
+    "fields": {
+      "name": "Sachets"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 7,
+    "fields": {
+      "name": "Rolls"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 8,
+    "fields": {
+      "name": "Tubes"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 9,
+    "fields": {
+      "name": "Tins"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 10,
+    "fields": {
+      "name": "Cartons"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 11,
+    "fields": {
+      "name": "Pieces"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 12,
+    "fields": {
+      "name": "Bags"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 13,
+    "fields": {
+      "name": "Pairs"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 14,
+    "fields": {
+      "name": "NULL"
+    }
+  }
+]

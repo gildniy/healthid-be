@@ -1,0 +1,2010 @@
+[
+  {
+    "model": "preference.Timezone",
+    "pk": "174870765",
+    "fields": {
+      "name": "Pacific/Niue",
+      "time_zone": "(GMT-11:00) Niue"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "194800929",
+    "fields": {
+      "name": "Pacific/Pago_Pago",
+      "time_zone": "(GMT-11:00) Pago Pago"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "128466282",
+    "fields": {
+      "name": "Pacific/Honolulu",
+      "time_zone": "(GMT-10:00) Hawaii Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "458571657",
+    "fields": {
+      "name": "Pacific/Rarotonga",
+      "time_zone": "(GMT-10:00) Rarotonga"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "139777282",
+    "fields": {
+      "name": "Pacific/Tahiti",
+      "time_zone": "(GMT-10:00) Tahiti"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "154378276",
+    "fields": {
+      "name": "Pacific/Marquesas",
+      "time_zone": "(GMT-09:30) Marquesas"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "178361127",
+    "fields": {
+      "name": "America/Anchorage",
+      "time_zone": "(GMT-09:00) Alaska Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "461595823",
+    "fields": {
+      "name": "Pacific/Gambier",
+      "time_zone": "(GMT-09:00) Gambier"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "252899964",
+    "fields": {
+      "name": "America/Los_Angeles",
+      "time_zone": "(GMT-08:00) Pacific Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "689388163",
+    "fields": {
+      "name": "America/Tijuana",
+      "time_zone": "(GMT-08:00) Pacific Time - Tijuana"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "132410850",
+    "fields": {
+      "name": "America/Vancouver",
+      "time_zone": "(GMT-08:00) Pacific Time - Vancouver"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "104346915",
+    "fields": {
+      "name": "America/Whitehorse",
+      "time_zone": "(GMT-08:00) Pacific Time - Whitehorse"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "235530478",
+    "fields": {
+      "name": "Pacific/Pitcairn",
+      "time_zone": "(GMT-08:00) Pitcairn"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "237094121",
+    "fields": {
+      "name": "America/Dawson_Creek",
+      "time_zone": "(GMT-07:00) Mountain Time - Dawson Creek"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "832464075",
+    "fields": {
+      "name": "America/Denver",
+      "time_zone": "(GMT-07:00) Mountain Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "287768223",
+    "fields": {
+      "name": "America/Edmonton",
+      "time_zone": "(GMT-07:00) Mountain Time - Edmonton"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "277054278",
+    "fields": {
+      "name": "America/Hermosillo",
+      "time_zone": "(GMT-07:00) Mountain Time - Hermosillo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "124182835",
+    "fields": {
+      "name": "America/Mazatlan",
+      "time_zone": "(GMT-07:00) Mountain Time - Chihuahua, Mazatlan"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "206986725",
+    "fields": {
+      "name": "America/Phoenix",
+      "time_zone": "(GMT-07:00) Mountain Time - Arizona"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "321467888",
+    "fields": {
+      "name": "America/Yellowknife",
+      "time_zone": "(GMT-07:00) Mountain Time - Yellowknife"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "269384670",
+    "fields": {
+      "name": "America/Belize",
+      "time_zone": "(GMT-06:00) Belize"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "242761801",
+    "fields": {
+      "name": "America/Chicago",
+      "time_zone": "(GMT-06:00) Central Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "211362054",
+    "fields": {
+      "name": "America/Costa_Rica",
+      "time_zone": "(GMT-06:00) Costa Rica"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "780248339",
+    "fields": {
+      "name": "America/El_Salvador",
+      "time_zone": "(GMT-06:00) El Salvador"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "213135266",
+    "fields": {
+      "name": "America/Guatemala",
+      "time_zone": "(GMT-06:00) Guatemala"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "114657018",
+    "fields": {
+      "name": "America/Managua",
+      "time_zone": "(GMT-06:00) Managua"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "233072687",
+    "fields": {
+      "name": "America/Mexico_City",
+      "time_zone": "(GMT-06:00) Central Time - Mexico City"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "103653292",
+    "fields": {
+      "name": "America/Regina",
+      "time_zone": "(GMT-06:00) Central Time - Regina"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "243329773",
+    "fields": {
+      "name": "America/Tegucigalpa",
+      "time_zone": "(GMT-06:00) Central Time - Tegucigalpa"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "167745112",
+    "fields": {
+      "name": "America/Winnipeg",
+      "time_zone": "(GMT-06:00) Central Time - Winnipeg"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "165626119",
+    "fields": {
+      "name": "Pacific/Galapagos",
+      "time_zone": "(GMT-06:00) Galapagos"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "210418419",
+    "fields": {
+      "name": "America/Bogota",
+      "time_zone": "(GMT-05:00) Bogota"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "186681615",
+    "fields": {
+      "name": "America/Cancun",
+      "time_zone": "(GMT-05:00) America Cancun"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "124031596",
+    "fields": {
+      "name": "America/Cayman",
+      "time_zone": "(GMT-05:00) Cayman"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "124859997",
+    "fields": {
+      "name": "America/Guayaquil",
+      "time_zone": "(GMT-05:00) Guayaquil"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "793088812",
+    "fields": {
+      "name": "America/Havana",
+      "time_zone": "(GMT-05:00) Havana"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "110423706",
+    "fields": {
+      "name": "America/Iqaluit",
+      "time_zone": "(GMT-05:00) Eastern Time - Iqaluit"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "988199531",
+    "fields": {
+      "name": "America/Jamaica",
+      "time_zone": "(GMT-05:00) Jamaica"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "991866421",
+    "fields": {
+      "name": "America/Lima",
+      "time_zone": "(GMT-05:00) Lima"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "309387503",
+    "fields": {
+      "name": "America/Nassau",
+      "time_zone": "(GMT-05:00) Nassau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "325374511",
+    "fields": {
+      "name": "America/New_York",
+      "time_zone": "(GMT-05:00) Eastern Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "262586544",
+    "fields": {
+      "name": "America/Panama",
+      "time_zone": "(GMT-05:00) Panama"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "123238631",
+    "fields": {
+      "name": "America/Port-au-Prince",
+      "time_zone": "(GMT-05:00) Port-au-Prince"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "267700366",
+    "fields": {
+      "name": "America/Rio_Branco",
+      "time_zone": "(GMT-05:00) Rio Branco"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "171095104",
+    "fields": {
+      "name": "America/Toronto",
+      "time_zone": "(GMT-05:00) Eastern Time - Toronto"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "270835525",
+    "fields": {
+      "name": "Pacific/Easter",
+      "time_zone": "(GMT-05:00) Easter Island"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "103718916",
+    "fields": {
+      "name": "America/Caracas",
+      "time_zone": "(GMT-04:30) Caracas"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "441153689",
+    "fields": {
+      "name": "America/Asuncion",
+      "time_zone": "(GMT-03:00) Asuncion"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "931338600",
+    "fields": {
+      "name": "America/Barbados",
+      "time_zone": "(GMT-04:00) Barbados"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "168391276",
+    "fields": {
+      "name": "America/Boa_Vista",
+      "time_zone": "(GMT-04:00) Boa Vista"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "107427315",
+    "fields": {
+      "name": "America/Campo_Grande",
+      "time_zone": "(GMT-03:00) Campo Grande"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "196879053",
+    "fields": {
+      "name": "America/Cuiaba",
+      "time_zone": "(GMT-03:00) Cuiaba"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "247198833",
+    "fields": {
+      "name": "America/Curacao",
+      "time_zone": "(GMT-04:00) Curacao"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "105170645",
+    "fields": {
+      "name": "America/Grand_Turk",
+      "time_zone": "(GMT-04:00) Grand Turk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "262021498",
+    "fields": {
+      "name": "America/Guyana",
+      "time_zone": "(GMT-04:00) Guyana"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "291106530",
+    "fields": {
+      "name": "America/Halifax",
+      "time_zone": "(GMT-04:00) Atlantic Time - Halifax"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "148361091",
+    "fields": {
+      "name": "America/La_Paz",
+      "time_zone": "(GMT-04:00) La Paz"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "419515683",
+    "fields": {
+      "name": "America/Manaus",
+      "time_zone": "(GMT-04:00) Manaus"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "331479581",
+    "fields": {
+      "name": "America/Martinique",
+      "time_zone": "(GMT-04:00) Martinique"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "193905418",
+    "fields": {
+      "name": "America/Port_of_Spain",
+      "time_zone": "(GMT-04:00) Port of Spain"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "200950393",
+    "fields": {
+      "name": "America/Porto_Velho",
+      "time_zone": "(GMT-04:00) Porto Velho"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "178126947",
+    "fields": {
+      "name": "America/Puerto_Rico",
+      "time_zone": "(GMT-04:00) Puerto Rico"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "906832273",
+    "fields": {
+      "name": "America/Santo_Domingo",
+      "time_zone": "(GMT-04:00) Santo Domingo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "293028697",
+    "fields": {
+      "name": "America/Thule",
+      "time_zone": "(GMT-04:00) Thule"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "240488304",
+    "fields": {
+      "name": "Atlantic/Bermuda",
+      "time_zone": "(GMT-04:00) Bermuda"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "860939238",
+    "fields": {
+      "name": "America/St_Johns",
+      "time_zone": "(GMT-03:30) Newfoundland Time - St. Johns"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "141337482",
+    "fields": {
+      "name": "America/Araguaina",
+      "time_zone": "(GMT-03:00) Araguaina"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "339244910",
+    "fields": {
+      "name": "America/Argentina/Buenos_Aires",
+      "time_zone": "(GMT-03:00) Buenos Aires"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "927284825",
+    "fields": {
+      "name": "America/Bahia",
+      "time_zone": "(GMT-03:00) Salvador"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "147760994",
+    "fields": {
+      "name": "America/Belem",
+      "time_zone": "(GMT-03:00) Belem"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "162331522",
+    "fields": {
+      "name": "America/Cayenne",
+      "time_zone": "(GMT-03:00) Cayenne"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "513135660",
+    "fields": {
+      "name": "America/Fortaleza",
+      "time_zone": "(GMT-03:00) Fortaleza"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "973879501",
+    "fields": {
+      "name": "America/Godthab",
+      "time_zone": "(GMT-03:00) Godthab"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "293866255",
+    "fields": {
+      "name": "America/Maceio",
+      "time_zone": "(GMT-03:00) Maceio"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "284300178",
+    "fields": {
+      "name": "America/Miquelon",
+      "time_zone": "(GMT-03:00) Miquelon"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "245349059",
+    "fields": {
+      "name": "America/Montevideo",
+      "time_zone": "(GMT-03:00) Montevideo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "242358865",
+    "fields": {
+      "name": "America/Paramaribo",
+      "time_zone": "(GMT-03:00) Paramaribo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "783854460",
+    "fields": {
+      "name": "America/Recife",
+      "time_zone": "(GMT-03:00) Recife"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "136711175",
+    "fields": {
+      "name": "America/Santiago",
+      "time_zone": "(GMT-03:00) Santiago"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "128590488",
+    "fields": {
+      "name": "America/Sao_Paulo",
+      "time_zone": "(GMT-02:00) Sao Paulo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "191509544",
+    "fields": {
+      "name": "Antarctica/Palmer",
+      "time_zone": "(GMT-03:00) Palmer"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "188778377",
+    "fields": {
+      "name": "Antarctica/Rothera",
+      "time_zone": "(GMT-03:00) Rothera"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "189329296",
+    "fields": {
+      "name": "Atlantic/Stanley",
+      "time_zone": "(GMT-03:00) Stanley"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "109783206",
+    "fields": {
+      "name": "America/Noronha",
+      "time_zone": "(GMT-02:00) Noronha"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "844077531",
+    "fields": {
+      "name": "Atlantic/South_Georgia",
+      "time_zone": "(GMT-02:00) South Georgia"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "243608703",
+    "fields": {
+      "name": "America/Scoresbysund",
+      "time_zone": "(GMT-01:00) Scoresbysund"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "218355240",
+    "fields": {
+      "name": "Atlantic/Azores",
+      "time_zone": "(GMT-01:00) Azores"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "311827180",
+    "fields": {
+      "name": "Atlantic/Cape_Verde",
+      "time_zone": "(GMT-01:00) Cape Verde"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "318254027",
+    "fields": {
+      "name": "Africa/Abidjan",
+      "time_zone": "(GMT+00:00) Abidjan"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "200088005",
+    "fields": {
+      "name": "Africa/Accra",
+      "time_zone": "(GMT+00:00) Accra"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "460868834",
+    "fields": {
+      "name": "Africa/Bissau",
+      "time_zone": "(GMT+00:00) Bissau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "243804776",
+    "fields": {
+      "name": "Africa/Casablanca",
+      "time_zone": "(GMT+00:00) Casablanca"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "257688666",
+    "fields": {
+      "name": "Africa/El_Aaiun",
+      "time_zone": "(GMT+00:00) El Aaiun"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "310649528",
+    "fields": {
+      "name": "Africa/Monrovia",
+      "time_zone": "(GMT+00:00) Monrovia"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "137431794",
+    "fields": {
+      "name": "America/Danmarkshavn",
+      "time_zone": "(GMT+00:00) Danmarkshavn"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "760042925",
+    "fields": {
+      "name": "Atlantic/Canary",
+      "time_zone": "(GMT+00:00) Canary Islands"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "187012283",
+    "fields": {
+      "name": "Atlantic/Faroe",
+      "time_zone": "(GMT+00:00) Faeroe"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "623196750",
+    "fields": {
+      "name": "Atlantic/Reykjavik",
+      "time_zone": "(GMT+00:00) Reykjavik"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "820481286",
+    "fields": {
+      "name": "Etc/GMT",
+      "time_zone": "(GMT+00:00) GMT (no daylight saving)"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "313397451",
+    "fields": {
+      "name": "Europe/Dublin",
+      "time_zone": "(GMT+00:00) Dublin"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "160270107",
+    "fields": {
+      "name": "Europe/Lisbon",
+      "time_zone": "(GMT+00:00) Lisbon"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "143271415",
+    "fields": {
+      "name": "Europe/London",
+      "time_zone": "(GMT+00:00) London"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "135269633",
+    "fields": {
+      "name": "Africa/Algiers",
+      "time_zone": "(GMT+01:00) Algiers"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "168332051",
+    "fields": {
+      "name": "Africa/Ceuta",
+      "time_zone": "(GMT+01:00) Ceuta"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "285461788",
+    "fields": {
+      "name": "Africa/Lagos",
+      "time_zone": "(GMT+01:00) Lagos"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "125777269",
+    "fields": {
+      "name": "Africa/Ndjamena",
+      "time_zone": "(GMT+01:00) Ndjamena"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "948569669",
+    "fields": {
+      "name": "Africa/Tunis",
+      "time_zone": "(GMT+01:00) Tunis"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "183518197",
+    "fields": {
+      "name": "Africa/Windhoek",
+      "time_zone": "(GMT+02:00) Windhoek"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "710240875",
+    "fields": {
+      "name": "Europe/Amsterdam",
+      "time_zone": "(GMT+01:00) Amsterdam"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "839902295",
+    "fields": {
+      "name": "Europe/Andorra",
+      "time_zone": "(GMT+01:00) Andorra"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "194170990",
+    "fields": {
+      "name": "Europe/Belgrade",
+      "time_zone": "(GMT+01:00) Central European Time - Belgrade"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "332055812",
+    "fields": {
+      "name": "Europe/Berlin",
+      "time_zone": "(GMT+01:00) Berlin"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "204545420",
+    "fields": {
+      "name": "Europe/Brussels",
+      "time_zone": "(GMT+01:00) Brussels"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "305656321",
+    "fields": {
+      "name": "Europe/Budapest",
+      "time_zone": "(GMT+01:00) Budapest"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "277469051",
+    "fields": {
+      "name": "Europe/Copenhagen",
+      "time_zone": "(GMT+01:00) Copenhagen"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "321090344",
+    "fields": {
+      "name": "Europe/Gibraltar",
+      "time_zone": "(GMT+01:00) Gibraltar"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "203154510",
+    "fields": {
+      "name": "Europe/Luxembourg",
+      "time_zone": "(GMT+01:00) Luxembourg"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "274458820",
+    "fields": {
+      "name": "Europe/Madrid",
+      "time_zone": "(GMT+01:00) Madrid"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "307268957",
+    "fields": {
+      "name": "Europe/Malta",
+      "time_zone": "(GMT+01:00) Malta"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "278630821",
+    "fields": {
+      "name": "Europe/Monaco",
+      "time_zone": "(GMT+01:00) Monaco"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "326640464",
+    "fields": {
+      "name": "Europe/Oslo",
+      "time_zone": "(GMT+01:00) Oslo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "198293480",
+    "fields": {
+      "name": "Europe/Paris",
+      "time_zone": "(GMT+01:00) Paris"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "318888217",
+    "fields": {
+      "name": "Europe/Prague",
+      "time_zone": "(GMT+01:00) Central European Time - Prague"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "802101895",
+    "fields": {
+      "name": "Europe/Rome",
+      "time_zone": "(GMT+01:00) Rome"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "527733131",
+    "fields": {
+      "name": "Europe/Stockholm",
+      "time_zone": "(GMT+01:00) Stockholm"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "252811376",
+    "fields": {
+      "name": "Europe/Tirane",
+      "time_zone": "(GMT+01:00) Tirane"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "226124342",
+    "fields": {
+      "name": "Europe/Vienna",
+      "time_zone": "(GMT+01:00) Vienna"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "186781965",
+    "fields": {
+      "name": "Europe/Warsaw",
+      "time_zone": "(GMT+01:00) Warsaw"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "178298507",
+    "fields": {
+      "name": "Europe/Zurich",
+      "time_zone": "(GMT+01:00) Zurich"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "224447769",
+    "fields": {
+      "name": "Africa/Cairo",
+      "time_zone": "(GMT+02:00) Cairo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "845324859",
+    "fields": {
+      "name": "Africa/Johannesburg",
+      "time_zone": "(GMT+02:00) Johannesburg"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "130026348",
+    "fields": {
+      "name": "Africa/Maputo",
+      "time_zone": "(GMT+02:00) Maputo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "269245141",
+    "fields": {
+      "name": "Africa/Tripoli",
+      "time_zone": "(GMT+02:00) Tripoli"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "158592786",
+    "fields": {
+      "name": "Asia/Amman",
+      "time_zone": "(GMT+02:00) Amman"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "150620569",
+    "fields": {
+      "name": "Asia/Beirut",
+      "time_zone": "(GMT+02:00) Beirut"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "266887099",
+    "fields": {
+      "name": "Asia/Damascus",
+      "time_zone": "(GMT+02:00) Damascus"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "331072147",
+    "fields": {
+      "name": "Asia/Gaza",
+      "time_zone": "(GMT+02:00) Gaza"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "151283767",
+    "fields": {
+      "name": "Asia/Jerusalem",
+      "time_zone": "(GMT+02:00) Jerusalem"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "100552555",
+    "fields": {
+      "name": "Asia/Nicosia",
+      "time_zone": "(GMT+02:00) Nicosia"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "298024277",
+    "fields": {
+      "name": "Europe/Athens",
+      "time_zone": "(GMT+02:00) Athens"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "221109732",
+    "fields": {
+      "name": "Europe/Bucharest",
+      "time_zone": "(GMT+02:00) Bucharest"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "795484914",
+    "fields": {
+      "name": "Europe/Chisinau",
+      "time_zone": "(GMT+02:00) Chisinau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "292275617",
+    "fields": {
+      "name": "Europe/Helsinki",
+      "time_zone": "(GMT+02:00) Helsinki"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "273462142",
+    "fields": {
+      "name": "Europe/Istanbul",
+      "time_zone": "(GMT+02:00) Istanbul"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "305479985",
+    "fields": {
+      "name": "Europe/Kaliningrad",
+      "time_zone": "(GMT+02:00) Moscow-01 - Kaliningrad"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "127309006",
+    "fields": {
+      "name": "Europe/Kiev",
+      "time_zone": "(GMT+02:00) Kiev"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "334866305",
+    "fields": {
+      "name": "Europe/Riga",
+      "time_zone": "(GMT+02:00) Riga"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "287206135",
+    "fields": {
+      "name": "Europe/Sofia",
+      "time_zone": "(GMT+02:00) Sofia"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "250367424",
+    "fields": {
+      "name": "Europe/Tallinn",
+      "time_zone": "(GMT+02:00) Tallinn"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "276684565",
+    "fields": {
+      "name": "Europe/Vilnius",
+      "time_zone": "(GMT+02:00) Vilnius"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "706202203",
+    "fields": {
+      "name": "Africa/Khartoum",
+      "time_zone": "(GMT+03:00) Khartoum"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "312016149",
+    "fields": {
+      "name": "Africa/Nairobi",
+      "time_zone": "(GMT+03:00) Nairobi"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "244770788",
+    "fields": {
+      "name": "Antarctica/Syowa",
+      "time_zone": "(GMT+03:00) Syowa"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "112231936",
+    "fields": {
+      "name": "Asia/Baghdad",
+      "time_zone": "(GMT+03:00) Baghdad"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "922774458",
+    "fields": {
+      "name": "Asia/Qatar",
+      "time_zone": "(GMT+03:00) Qatar"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "795253970",
+    "fields": {
+      "name": "Asia/Riyadh",
+      "time_zone": "(GMT+03:00) Riyadh"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "247351350",
+    "fields": {
+      "name": "Europe/Minsk",
+      "time_zone": "(GMT+03:00) Minsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "128588083",
+    "fields": {
+      "name": "Europe/Moscow",
+      "time_zone": "(GMT+03:00) Moscow+00 - Moscow"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "339105378",
+    "fields": {
+      "name": "Asia/Tehran",
+      "time_zone": "(GMT+03:30) Tehran"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "269045278",
+    "fields": {
+      "name": "Asia/Baku",
+      "time_zone": "(GMT+04:00) Baku"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "218063898",
+    "fields": {
+      "name": "Asia/Dubai",
+      "time_zone": "(GMT+04:00) Dubai"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "744134439",
+    "fields": {
+      "name": "Asia/Tbilisi",
+      "time_zone": "(GMT+04:00) Tbilisi"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "207446145",
+    "fields": {
+      "name": "Asia/Yerevan",
+      "time_zone": "(GMT+04:00) Yerevan"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "265966808",
+    "fields": {
+      "name": "Europe/Samara",
+      "time_zone": "(GMT+04:00) Moscow+01 - Samara"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "268236815",
+    "fields": {
+      "name": "Indian/Mahe",
+      "time_zone": "(GMT+04:00) Mahe"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "264045704",
+    "fields": {
+      "name": "Indian/Mauritius",
+      "time_zone": "(GMT+04:00) Mauritius"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "305028865",
+    "fields": {
+      "name": "Indian/Reunion",
+      "time_zone": "(GMT+04:00) Reunion"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "247191684",
+    "fields": {
+      "name": "Asia/Kabul",
+      "time_zone": "(GMT+04:30) Kabul"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "208519098",
+    "fields": {
+      "name": "Antarctica/Mawson",
+      "time_zone": "(GMT+05:00) Mawson"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "203487034",
+    "fields": {
+      "name": "Asia/Aqtau",
+      "time_zone": "(GMT+05:00) Aqtau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "250419401",
+    "fields": {
+      "name": "Asia/Aqtobe",
+      "time_zone": "(GMT+05:00) Aqtobe"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "139077503",
+    "fields": {
+      "name": "Asia/Ashgabat",
+      "time_zone": "(GMT+05:00) Ashgabat"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "241301594",
+    "fields": {
+      "name": "Asia/Dushanbe",
+      "time_zone": "(GMT+05:00) Dushanbe"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "284430751",
+    "fields": {
+      "name": "Asia/Karachi",
+      "time_zone": "(GMT+05:00) Karachi"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "315871193",
+    "fields": {
+      "name": "Asia/Tashkent",
+      "time_zone": "(GMT+05:00) Tashkent"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "754814050",
+    "fields": {
+      "name": "Asia/Yekaterinburg",
+      "time_zone": "(GMT+05:00) Moscow+02 - Yekaterinburg"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "221482515",
+    "fields": {
+      "name": "Indian/Kerguelen",
+      "time_zone": "(GMT+05:00) Kerguelen"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "741012525",
+    "fields": {
+      "name": "Indian/Maldives",
+      "time_zone": "(GMT+05:00) Maldives"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "175329685",
+    "fields": {
+      "name": "Asia/Calcutta",
+      "time_zone": "(GMT+05:30) India Standard Time"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "287626802",
+    "fields": {
+      "name": "Asia/Colombo",
+      "time_zone": "(GMT+05:30) Colombo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "200807943",
+    "fields": {
+      "name": "Asia/Katmandu",
+      "time_zone": "(GMT+05:45) Katmandu"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "155721669",
+    "fields": {
+      "name": "Antarctica/Vostok",
+      "time_zone": "(GMT+06:00) Vostok"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "720736205",
+    "fields": {
+      "name": "Asia/Almaty",
+      "time_zone": "(GMT+06:00) Almaty"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "560341162",
+    "fields": {
+      "name": "Asia/Bishkek",
+      "time_zone": "(GMT+06:00) Bishkek"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "305205324",
+    "fields": {
+      "name": "Asia/Dhaka",
+      "time_zone": "(GMT+06:00) Dhaka"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "204542707",
+    "fields": {
+      "name": "Asia/Omsk",
+      "time_zone": "(GMT+06:00) Moscow+03 - Omsk, Novosibirsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "286613444",
+    "fields": {
+      "name": "Asia/Thimphu",
+      "time_zone": "(GMT+06:00) Thimphu"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "222984054",
+    "fields": {
+      "name": "Indian/Chagos",
+      "time_zone": "(GMT+06:00) Chagos"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "128168602",
+    "fields": {
+      "name": "Asia/Rangoon",
+      "time_zone": "(GMT+06:30) Rangoon"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "323867336",
+    "fields": {
+      "name": "Indian/Cocos",
+      "time_zone": "(GMT+06:30) Cocos"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "161943197",
+    "fields": {
+      "name": "Antarctica/Davis",
+      "time_zone": "(GMT+07:00) Davis"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "635052153",
+    "fields": {
+      "name": "Asia/Bangkok",
+      "time_zone": "(GMT+07:00) Bangkok"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "138458476",
+    "fields": {
+      "name": "Asia/Hovd",
+      "time_zone": "(GMT+07:00) Hovd"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "315635523",
+    "fields": {
+      "name": "Asia/Jakarta",
+      "time_zone": "(GMT+07:00) Jakarta"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "206476746",
+    "fields": {
+      "name": "Asia/Krasnoyarsk",
+      "time_zone": "(GMT+07:00) Moscow+04 - Krasnoyarsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "396725744",
+    "fields": {
+      "name": "Asia/Saigon",
+      "time_zone": "(GMT+07:00) Hanoi"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "165878483",
+    "fields": {
+      "name": "Asia/Ho_Chi_Minh",
+      "time_zone": "(GMT+07:00) Ho Chi Minh"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "274367071",
+    "fields": {
+      "name": "Indian/Christmas",
+      "time_zone": "(GMT+07:00) Christmas"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "440334979",
+    "fields": {
+      "name": "Antarctica/Casey",
+      "time_zone": "(GMT+08:00) Casey"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "846185869",
+    "fields": {
+      "name": "Asia/Brunei",
+      "time_zone": "(GMT+08:00) Brunei"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "680385533",
+    "fields": {
+      "name": "Asia/Choibalsan",
+      "time_zone": "(GMT+08:00) Choibalsan"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "175180833",
+    "fields": {
+      "name": "Asia/Hong_Kong",
+      "time_zone": "(GMT+08:00) Hong Kong"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "211811899",
+    "fields": {
+      "name": "Asia/Irkutsk",
+      "time_zone": "(GMT+08:00) Moscow+05 - Irkutsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "269478490",
+    "fields": {
+      "name": "Asia/Kuala_Lumpur",
+      "time_zone": "(GMT+08:00) Kuala Lumpur"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "328175237",
+    "fields": {
+      "name": "Asia/Macau",
+      "time_zone": "(GMT+08:00) Macau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "233324893",
+    "fields": {
+      "name": "Asia/Makassar",
+      "time_zone": "(GMT+08:00) Makassar"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "307652767",
+    "fields": {
+      "name": "Asia/Manila",
+      "time_zone": "(GMT+08:00) Manila"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "149721249",
+    "fields": {
+      "name": "Asia/Shanghai",
+      "time_zone": "(GMT+08:00) China Time - Beijing"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "914533409",
+    "fields": {
+      "name": "Asia/Singapore",
+      "time_zone": "(GMT+08:00) Singapore"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "174716654",
+    "fields": {
+      "name": "Asia/Taipei",
+      "time_zone": "(GMT+08:00) Taipei"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "333701534",
+    "fields": {
+      "name": "Asia/Ulaanbaatar",
+      "time_zone": "(GMT+08:00) Ulaanbaatar"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "955683357",
+    "fields": {
+      "name": "Australia/Perth",
+      "time_zone": "(GMT+08:00) Western Time - Perth"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "300038927",
+    "fields": {
+      "name": "Asia/Pyongyang",
+      "time_zone": "(GMT+08:30) Pyongyang"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "218539804",
+    "fields": {
+      "name": "Asia/Dili",
+      "time_zone": "(GMT+09:00) Dili"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "168012682",
+    "fields": {
+      "name": "Asia/Jayapura",
+      "time_zone": "(GMT+09:00) Jayapura"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "695228627",
+    "fields": {
+      "name": "Asia/Seoul",
+      "time_zone": "(GMT+09:00) Seoul"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "966924394",
+    "fields": {
+      "name": "Asia/Tokyo",
+      "time_zone": "(GMT+09:00) Tokyo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "566316081",
+    "fields": {
+      "name": "Asia/Yakutsk",
+      "time_zone": "(GMT+09:00) Moscow+06 - Yakutsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "192551326",
+    "fields": {
+      "name": "Pacific/Palau",
+      "time_zone": "(GMT+09:00) Palau"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "181601727",
+    "fields": {
+      "name": "Australia/Adelaide",
+      "time_zone": "(GMT+10:30) Central Time - Adelaide"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "932779494",
+    "fields": {
+      "name": "Australia/Darwin",
+      "time_zone": "(GMT+09:30) Central Time - Darwin"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "165149895",
+    "fields": {
+      "name": "Antarctica/DumontDUrville",
+      "time_zone": "(GMT+10:00) Dumont D'Urville"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "123733453",
+    "fields": {
+      "name": "Asia/Magadan",
+      "time_zone": "(GMT+10:00) Moscow+07 - Magadan"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "903598510",
+    "fields": {
+      "name": "Asia/Vladivostok",
+      "time_zone": "(GMT+10:00) Moscow+07 - Yuzhno-Sakhalinsk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "259346856",
+    "fields": {
+      "name": "Australia/Brisbane",
+      "time_zone": "(GMT+10:00) Eastern Time - Brisbane"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "260053662",
+    "fields": {
+      "name": "Australia/Hobart",
+      "time_zone": "(GMT+11:00) Eastern Time - Hobart"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "367898116",
+    "fields": {
+      "name": "Australia/Sydney",
+      "time_zone": "(GMT+11:00) Eastern Time - Melbourne, Sydney"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "180177286",
+    "fields": {
+      "name": "Pacific/Chuuk",
+      "time_zone": "(GMT+10:00) Truk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "278054846",
+    "fields": {
+      "name": "Pacific/Guam",
+      "time_zone": "(GMT+10:00) Guam"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "227884285",
+    "fields": {
+      "name": "Pacific/Port_Moresby",
+      "time_zone": "(GMT+10:00) Port Moresby"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "295687039",
+    "fields": {
+      "name": "Pacific/Efate",
+      "time_zone": "(GMT+11:00) Efate"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "913686098",
+    "fields": {
+      "name": "Pacific/Guadalcanal",
+      "time_zone": "(GMT+11:00) Guadalcanal"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "441057135",
+    "fields": {
+      "name": "Pacific/Kosrae",
+      "time_zone": "(GMT+11:00) Kosrae"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "204591429",
+    "fields": {
+      "name": "Pacific/Norfolk",
+      "time_zone": "(GMT+11:00) Norfolk"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "196180845",
+    "fields": {
+      "name": "Pacific/Noumea",
+      "time_zone": "(GMT+11:00) Noumea"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "311152237",
+    "fields": {
+      "name": "Pacific/Pohnpei",
+      "time_zone": "(GMT+11:00) Ponape"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "252043720",
+    "fields": {
+      "name": "Asia/Kamchatka",
+      "time_zone": "(GMT+12:00) Moscow+09 - Petropavlovsk-Kamchatskiy"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "276014290",
+    "fields": {
+      "name": "Pacific/Auckland",
+      "time_zone": "(GMT+13:00) Auckland"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "147028204",
+    "fields": {
+      "name": "Pacific/Fiji",
+      "time_zone": "(GMT+13:00) Fiji"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "304306578",
+    "fields": {
+      "name": "Pacific/Funafuti",
+      "time_zone": "(GMT+12:00) Funafuti"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "281700815",
+    "fields": {
+      "name": "Pacific/Kwajalein",
+      "time_zone": "(GMT+12:00) Kwajalein"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "312609208",
+    "fields": {
+      "name": "Pacific/Majuro",
+      "time_zone": "(GMT+12:00) Majuro"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "227309489",
+    "fields": {
+      "name": "Pacific/Nauru",
+      "time_zone": "(GMT+12:00) Nauru"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "105208623",
+    "fields": {
+      "name": "Pacific/Tarawa",
+      "time_zone": "(GMT+12:00) Tarawa"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "114868471",
+    "fields": {
+      "name": "Pacific/Wake",
+      "time_zone": "(GMT+12:00) Wake"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "184093823",
+    "fields": {
+      "name": "Pacific/Wallis",
+      "time_zone": "(GMT+12:00) Wallis"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "932711829",
+    "fields": {
+      "name": "Pacific/Apia",
+      "time_zone": "(GMT+14:00) Apia"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "176682885",
+    "fields": {
+      "name": "Pacific/Enderbury",
+      "time_zone": "(GMT+13:00) Enderbury"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "208151085",
+    "fields": {
+      "name": "Pacific/Fakaofo",
+      "time_zone": "(GMT+13:00) Fakaofo"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "199621808",
+    "fields": {
+      "name": "Pacific/Tongatapu",
+      "time_zone": "(GMT+13:00) Tongatapu"
+    }
+  },
+  {
+    "model": "preference.Timezone",
+    "pk": "208323027",
+    "fields": {
+      "name": "Pacific/Kiritimati",
+      "time_zone": "(GMT+14:00) Kiritimati"
+    }
+  }
+]

@@ -1,0 +1,87 @@
+{
+    "name": "healthid-web-api",
+    "scripts": {},
+    "env": {
+      "API_KEY": {
+        "required": true
+      },
+      "API_SECRET": {
+        "required": true
+      },
+      "APP_LINK": {
+        "required": true
+      },
+      "CLOUD_NAME": {
+        "required": true
+      },
+      "DB_NAME": {
+        "required": true
+      },
+      "DB_PASSWORD": {
+        "required": true
+      },
+      "DB_USER": {
+        "required": true
+      },
+      "DEFAULT_FROM_EMAIL": {
+        "required": true
+      },
+      "DOMAIN": {
+        "required": true
+      },
+      "EMAIL_HOST": {
+        "required": true
+      },
+      "EMAIL_HOST_PASSWORD": {
+        "required": true
+      },
+      "EMAIL_HOST_USER": {
+        "required": true
+      },
+      "EMAIL_PORT": {
+        "required": true
+      },
+      "EMAIL_USE_TLS": {
+        "required": true
+      },
+      "FRONTEND_URL": {
+        "required": true
+      },
+      "HOST": {
+        "required": true
+      },
+      "PORT": {
+        "required": true
+      },
+      "PUSHER_APP_ID": {
+        "required": true
+      },
+      "PUSHER_CLUSTER": {
+        "required": true
+      },
+      "PUSHER_KEY": {
+        "required": true
+      },
+      "PUSHER_SECRET": {
+        "required": true
+      },
+      "SECRET": {
+        "required": true
+      }
+    },
+    "formation": {
+      "web": {
+        "quantity": 1
+      }
+    },
+    "addons": [
+      "heroku-postgresql"
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "stack": "heroku-18"
+  }
+  

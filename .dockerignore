@@ -1,0 +1,9 @@
+healthid_db/
+.vscode
+.env.sample
+.circleci
+healthid/tests/
+api/
+web/
+proxy/
+db/

@@ -1,0 +1,123 @@
+{% extends 'email_alerts/sales_report/base_email.html' %}
+{% block inner_content %}
+<section class='health-section'>
+    <div>
+        <img class="healthid_logo"
+            src="https://res.cloudinary.com/health-id/image/upload/v1554202200/HealthID_full_logo.png"
+            alt="healthID_logo">
+    </div>
+    <div class="healthid_envelope">
+        <img src="https://res.cloudinary.com/health-id/image/upload/v1582555704/sales_report_envelope.png"
+            alt="healthID_envelope">
+        <div>
+            <h2 class="verify">Sales Report</h2>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div class="bg-holder">
+                <h5 class="head-text">Sales Report Summary {{date}}</h5>
+            </div>
+            {% for index in data %}
+            <div class="email_body">
+                <div class="table-holder">
+                    <h4 class="table-head">Outlet Sales Performance {{index.name}} </h4>
+                    <table style="width: 60%;">
+                        <tbody>
+                            <tr>
+                                <td class="health-td">Total number of Products sold:</td class="health-td">
+                                <td class="health-td">{{index.total_number_sold}}</td class="health-td">
+                            </tr>
+                            <tr>
+                                <td class="health-td">Total qty of Products sold:</td class="health-td">
+                                <td class="health-td">{{index.total_qty_sold}}</td class="health-td">
+                            </tr>
+
+                            <tr>
+                                <td class="health-td">Total amount sold in cash:</td class="health-td">
+                                <td class="health-td">&#8358; {{index.total_amount_cash}}</td class="health-td">
+                            </tr>
+
+                            <tr>
+                                <td class="health-td">Total amount sold in card:</td class="health-td">
+                                <td class="health-td">&#8358; {{index.total_amount_card}}</td class="health-td">
+                            </tr>
+
+                            <tr>
+                                <td class="health-td">Total amount sold for the day:</td class="health-td">
+                                <td class="health-td">&#8358; {{index.sold_amount}}</td class="health-td">
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="table-holder table-seoarator">
+                    <h4 class="table-head">User Sales Performance</h4>
+                    {% for index2 in index.salers %}
+                    <h5 class="table-user" style="margin-bottom: .25rem;">
+                        User: {{index2.user_name}}
+                    </h5>
+                    <table style="width: 50%;">
+                        <tbody>
+                            <tr>
+                                <td class="health-td">Total number of Products sold:</td class="health-td">
+                                <td class="health-td">{{index2.Total_number_of_Products_sold}}</td class="health-td">
+                            </tr>
+                            <tr>
+                                <td class="health-td">Total qty of Products sold:</td class="health-td">
+                                <td class="health-td">{{index2.Total_qty_of_Products_sold}}</td class="health-td">
+                            </tr>
+                    
+                            <tr>
+                                <td class="health-td">Total amount sold in cash:</td class="health-td">
+                                <td class="health-td">&#8358; {{index2.total_cash_per_day}}</td class="health-td">
+                            </tr>
+                    
+                            <tr>
+                                <td class="health-td">Total amount sold in card:</td class="health-td">
+                                <td class="health-td">&#8358; {{index2.total_card_per_day}}</td class="health-td">
+                            </tr>
+                    
+                            <tr>
+                                <td class="health-td">Total amount sold for the day:</td class="health-td">
+                                <td class="health-td">&#8358; {{index2.total_amount_day}}</td class="health-td">
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-holder">
+                    <h4 class="table-head">Products sold:</h4>
+                    <table style="width: 60%;">
+                        <tbody>
+                            <tr>
+                                <td class="health-td">S/N</td class="health-td">
+                                <td class="health-td">Product Name</td class="health-td">
+                                <td class="health-td">Qty Sold</td class="health-td">
+                                <td class="health-td">Batch #</td class="health-td">
+                                <td class="health-td">Expiry Date</td class="health-td">
+                            </tr>
+                            {% for index3 in index2.product_list  %}
+                            <tr>
+                                <td class="health-td">{{forloop.counter}}</td class="health-td">
+                                <td class="health-td">{{index3.product_name}}</td class="health-td">
+                                <td class="health-td">{{index3.qty_sold}}</td class="health-td">
+                                <td class="health-td">{{index3.batch_nbr}}</td class="health-td">
+                                <td class="health-td">{{index3.expire_date}}</td class="health-td">
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                    {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <p class="footer_text">
+        Didn't create an account? Feel free to ignore this email or
+        <span style="color:#FAF33E; margin-top: 15px;"><a>CONTACT US</a></span> if you have any
+    </p>
+</section>
+{% endblock inner_content %}

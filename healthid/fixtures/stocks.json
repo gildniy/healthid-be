@@ -1,0 +1,36 @@
+[
+  {
+      "model":"outlets.outlet",
+      "pk":2,
+      "fields":{
+         "kind":1,
+         "name":"Eco Pharm",
+         "business":"112t0mti8"
+      }
+   },
+ {
+        "model": "events.event",
+        "pk": 1,
+        "fields": {
+           "event_type_id": "16lbwaaf3",
+          "start_date": "2019-10-10",
+          "end_date": "2019-10-12",
+          "event_title": "Nothing",
+          "description": "Simple",
+          "end_time":"19:10:25-07",
+          "start_time": "19:10:25-07"
+        }
+     },
+  {
+    "model": "stock.stockcounttemplate",
+        "pk": "1",
+        "fields": {
+          "schedule_time": 1,
+          "outlet": "2",
+          "created_at": "2019-07-23 09:56:05.958498+01",
+          "designated_users": ["aul5xrp73"],
+          "assigned_users": ["aul5xrp73"],
+          "products": [2, 3]
+        }
+  }
+]

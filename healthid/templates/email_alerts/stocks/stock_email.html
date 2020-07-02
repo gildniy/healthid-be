@@ -1,0 +1,23 @@
+{% extends 'email_alerts/email_base.html' %} {% block inner_content %}
+<div>
+  <div class="email_body">
+    <div class="email_body_cont">
+      {% if by %}
+      <div class="email_body_a">Scheduled By:</div>
+      <div class="email_body_b">{{ by }}</div>
+      {% endif %}
+    </div>
+
+    <div class="email_body_cont password">
+      <div class="email_body_a">Scheduled On:</div>
+      <div class="email_body_b2">{{ schedule_time }}</div>
+    </div>
+    <br />
+  </div>
+</div>
+
+<p class="footer_text">
+  Please check with your outlet's calendar for more details
+  <span style="color:#FAF33E"><u>CALENDAR</u></span>
+</p>
+{% endblock inner_content %}

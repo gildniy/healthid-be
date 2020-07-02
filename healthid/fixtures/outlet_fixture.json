@@ -1,0 +1,29 @@
+[
+    {
+        "model": "outlets.outlet", "pk": 1, "fields": {
+            "kind": 1, "name": "Capital shoppers", "address_line1": "Bukoto St", "address_line2": "Bukoto", "lga": "Jolof", "city": 1, "phone_number": "256703201606", "date_launched": "2018-01-27", "prefix_id": "EC001-CAP", "business": "112t0mti8", "preference": "6g8oo0fgb"
+        }
+    },
+    {
+        "model": "outlets.outletuser",
+        "pk": 1,
+        "fields":{
+           "outlet": 1,
+           "user": "aul5xrp73"
+        }
+    },
+    {
+        "model": "outlets.outletMeta",
+        "pk": 1,
+        "fields":{
+            "outlet": 1
+        }
+    },
+    {
+        "model": "outlets.outletcontacts",
+        "pk": 1,
+        "fields": {
+            "outlet": 1
+        }
+    }
+]

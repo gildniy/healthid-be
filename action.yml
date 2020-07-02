@@ -1,0 +1,6 @@
+# action.yml
+name: "Running Test Script"
+description:  "Runs the Test script from the shell using the command"
+runs:
+  using: 'docker'
+  image: 'docker-compose.yml'

@@ -1,0 +1,37 @@
+version: "3.5"
+services:
+  db:
+    build:
+      dockerfile: db.Dockerfile
+      context: db/
+    image: lifestores/pharmiq-db:dev
+    volumes:
+      - db:/var/lib/postgresql/data
+  api:
+    depends_on:
+      - db
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: lifestores/pharmiq-api:dev
+    volumes:
+        - .:/src
+    ports:
+      - "85:80"
+  web:
+    build:
+        dockerfile: Dockerfile
+        context: web/
+    image: lifestores/pharmiq-web:dev
+    volumes:
+      - ./web/dist:/home/healthid
+    ports:
+      - "8080:80"
+  dba:
+    image: dockage/phppgadmin:latest
+    ports:
+      - "90:80"
+    environment:
+      - PHP_PG_ADMIN_SERVER_HOST=db
+volumes:
+    db:

@@ -1,0 +1,29 @@
+[
+  {
+    "model": "sales.salereturn",
+    "pk": "1",
+    "fields": {
+      "created_at": "2019-07-23 18:39:38.886627+03",
+      "updated_at": "2019-07-23 18:39:38.915087+03",
+      "return_note": "bad product",
+      "return_amount": 6000,
+      "refund_compensation_type": "cash",
+      "cashier_id": "aul5xrp73",
+      "outlet_id": 1,
+      "sale_id": 1
+    }
+  },
+  {
+    "model": "sales.salereturndetail",
+    "pk": "1",
+    "fields": {
+      "created_at": "2019-07-23 18:39:38.886627+03",
+      "updated_at": "2019-07-23 18:39:38.915087+03",
+      "quantity": 1,
+      "price": 1000,
+      "return_reason": "Expired Product",
+      "batch_id": "098765432",
+      "sales_return_id": 1
+    }
+  }
+]

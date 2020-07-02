@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reciept of your recent purchase
+        from {{ receipt.sale.outlet.name }}</title>
+    <style>
+        @font-face {
+            font-family: Avenir;
+            src: url("https://res.cloudinary.com/health-id/raw/upload/v1554202284/avenir.ttc");
+        }
+
+        section {
+            font-family: Avenir;
+            text-align: center;
+            margin: auto;
+            width: 80%;
+        }
+
+        .healthid_logo {
+            width: 270px;
+            height: 70px;
+            margin-top: 30px;
+        }
+
+        .healthid_envelope {
+            background-color: #424242;
+            height: 250px;
+            width: 60%;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+
+        .healthid_envelope img {
+            margin-top: 30px;
+            width: 135px;
+        }
+
+        .verify {
+            color: #FAF33E;
+            font-size: 25px;
+        }
+
+        .receipt_card {
+            max-width: 400px;
+            min-width: 320px;
+            margin: 0 auto;
+            padding: 10px 0;
+            border: #424242 1px dashed;
+            font-size: 12px;
+        }
+
+        .receipt_table {
+            border-collapse: collapse;
+            border-bottom: 1px solid #EEE;
+            text-align: left;
+            width: 90%;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        .receipt_table_header,
+        .receipt_table_footer {
+            border-top: 1px solid #EEE;
+            border-bottom: 1px solid #EEE;
+        }
+
+        .receipt_table_footer :first-child {
+            padding: 5px 0;
+        }
+
+        .receipt_table_header .receipt_table_header__col-1 {
+            text-align: left;
+            padding: 8px 0 8px 20px;
+        }
+
+        .receipt_table .receipt_table_header__col-2 {
+            text-align: right;
+            padding: 8px 6px 8px 0;
+        }
+
+        .receipt_table__products__col-1 {
+            text-align: left;
+            padding: 0 0 0 30px;
+            border: none;
+        }
+
+        .receipt_table__products__col-2 {
+            text-align: right;
+            padding: 0 30px 0 0;
+            border: none;
+        }
+
+        .receipt_table__products--desc {
+            margin: 0;
+        }
+
+        .receipt_table__products--desc p {
+            margin-bottom: 0;
+        }
+
+        .receipt_summary {
+            padding-top: 10px;
+        }
+
+        .receipt_summary.receipt_summary--first {
+            border-top: 1px solid #EEE;
+            padding-top: 10px;
+        }
+
+        .receipt_summary .receipt_summary--field {
+            text-align: left;
+            padding: 5px 0 5px 40px;
+            width: 65%;
+        }
+
+        .receipt_summary .receipt_summary--value {
+            text-align: right;
+            padding-right: 30px;
+        }
+
+        .receipt_summary.total {
+            border-top: 1px solid #EEE;
+            border-bottom: 1px solid #EEE;
+        }
+
+        .receipt_footer img {
+            margin-top: 10px;
+            object-fit: contain;
+            width: 150px;
+        }
+
+        .lead_text {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #424242;
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .footer_text {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 812px) {
+            .lead_text {
+                font-size: 14px;
+            }
+
+            .footer_text {
+                font-size: 12px;
+            }
+        }
+
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+
+            .receipt_card, .receipt_card * {
+                visibility: visible;
+            }
+
+            .receipt_card {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <div>
+        <img class="healthid_logo"
+             src="https://res.cloudinary.com/health-id/image/upload/v1554202200/HealthID_full_logo.png"
+             alt="healthID_logo">
+    </div>
+    <div class="healthid_envelope">
+        <img src="https://res.cloudinary.com/health-id/image/upload/v1554202183/Email_envelop_icon.png"
+             alt="healthID_envelope">
+    </div>
+    <div class="lead_text">
+        <p>
+            <strong>Hi {{ sale.customer.first_name }}, kindly find below the
+                receipt
+                of your recent purchase at {{ sale.outlet.name }}:
+            </strong>
+        </p>
+    </div>
+    <div>
+        {% block inner_content %} {% endblock inner_content %}
+        <div class="receipt_card">
+            <div class="receipt_header">
+                <p>
+                    <strong>{{ receipt.sale.outlet.name }}</strong>
+                </p>
+                {% if receipt.sale.outlet.address_line1 %}
+                    <p>{{ receipt.sale.outlet.address_line1 }} {{ receipt.sale.outlet.address_line2 }}</p>
+                {% endif %}
+                <p>{{ receipt.sale.outlet.city }}, {{ receipt.sale.outlet.business.country }}.</p>
+                <p>Telephone: {{ receipt.sale.outlet.phone_number }}</p>
+            </div>
+            <table class="receipt_table">
+                <tbody>
+                <tr class="receipt_table_header">
+                    <td class="receipt_table_header__col-1">
+                        RECEIPT {{ receipt.receipt_no }}
+                    </td>
+                    <td colspan="2" class="receipt_table_header__col-2">
+                        {{ receipt.created_at }}
+                    </td>
+                </tr>
+                {% for product in receipt_product_info %}
+                    <tr class="receipt_table__products">
+                        <td class="receipt_table__products__col-1">
+                            <div class="receipt_table__products--desc">
+                                <p>{{ product.product_name }}</p>
+                                <small>({{ product.quantity_bought }}
+                                    x {{ product.price }})
+                                </small>
+                            </div>
+                        </td>
+                        <td class="receipt_table__products__col-2" colspan="2">
+                            <p class="receipt_table__products">{{ product.price }}</p>
+                        </td>
+                    </tr>
+                {% endfor %}
+                <tr class="receipt_summary receipt_summary--first">
+                    <td colspan="2" class="receipt_summary--field">SUBTOTAL
+                    </td>
+                    <td class="receipt_summary--value">{{ receipt.sub_total }}</td>
+                </tr>
+                <tr class="receipt_summary">
+                    <td colspan="2" class="receipt_summary--field">DISCOUNT
+                    </td>
+                    <td class="receipt_summary--value">{{ receipt.discount_total }}</td>
+                </tr>
+                <tr class="receipt_summary total">
+                    <td colspan="2" class="receipt_summary--field">PURCHASE
+                        TOTAL
+                    </td>
+                    <td class="receipt_summary--value">{{ receipt.purchase_total }}</td>
+                </tr>
+                <tr class="receipt_summary">
+                    <td colspan="2" class="receipt_summary--field">CASH</td>
+                    <td class="receipt_summary--value">{{ sale.paid_amount }}</td>
+                </tr>
+                <tr class="receipt_summary">
+                    <td colspan="2" class="receipt_summary--field">CHANGE DUE
+                    </td>
+                    <td class="receipt_summary--value">{{ receipt.change_due }}</td>
+                </tr>
+                <tr class="receipt_table_footer">
+                    <td colspan="3">
+                        Your cashier today: {{ receipt.cashier }}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="receipt_footer">
+                {% if receipt.barcode_url %}
+                    <img alt="barcode" src={{ receipt.barcode_url }}/>
+                {% endif %}
+                <p>
+                    <i>Thank you for shopping with us, Please come again!</i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer_text">
+        Didn’t create an account? Feel free to ignore this email or
+        <span style="color:#FAF33E"><u>CONTACT US</u></span> if you have
+        any
+        issues
+    </p>
+</section>
+</body>
+
+</html>

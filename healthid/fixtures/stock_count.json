@@ -1,0 +1,87 @@
+[
+    {
+        "model":"stock.stockcount",
+        "pk":1,
+        "fields":{
+           "created_at": "2019-02-20 09:50:05.958498+01",
+           "updated_at": "2019-02-21 09:55:05.958498+01",
+           "variance_reason":"No variance",
+           "remarks":"Good count",
+           "is_approved":true,
+           "is_completed":true,
+           "product_id":2,
+           "stock_template_id":1
+        }
+     },
+   {
+    "model":"stock.stockcount",
+    "pk":2,
+    "fields":{
+       "created_at": "2019-03-23 09:50:05.958498+01",
+       "updated_at": "2019-03-24 09:56:05.958498+01",
+       "variance_reason":"big variance",
+       "remarks":"No remarks",
+       "is_approved":false,
+       "is_completed":true,
+       "product_id":2,
+       "stock_template_id":1
+          }
+       },
+    {
+        "model":"stock.stockcount",
+        "pk":3,
+        "fields":{
+           "created_at": "2019-04-24 09:56:05.958498+01",
+           "updated_at": "2019-04-26 09:56:05.958498+01",
+           "variance_reason":"Does not match",
+           "remarks":"NO remarks",
+           "is_approved":false,
+           "is_completed":true,
+           "product_id":2,
+           "stock_template_id":1
+          }
+    },
+
+    {
+        "model":"stock.stockcount",
+        "pk":4,
+        "fields":{
+           "created_at": "2019-04-26 09:56:05.958498+01",
+           "updated_at": "2018-04-27 09:56:05.958498+01",
+           "variance_reason":"No variance",
+           "remarks":"Great count",
+           "is_approved":true,
+           "is_completed":true,
+           "product_id":2,
+           "stock_template_id":1
+          }
+    },
+    {
+        "model":"stock.stockcount",
+        "pk":5,
+        "fields":{
+           "created_at": "2019-05-01 09:56:05.958498+01",
+           "updated_at": "2019-05-02 09:56:05.958498+01",
+           "variance_reason":"Variance",
+           "remarks":"No remarks",
+           "is_approved":false,
+           "is_completed":true,
+           "product_id":2,
+           "stock_template_id":1
+          }
+    },
+    {
+        "model":"stock.stockcount",
+        "pk":6,
+        "fields":{
+           "created_at": "2019-05-02 09:56:05.958498+01",
+           "updated_at": "2019-05-03 09:56:05.958498+01",
+           "variance_reason":"No variance",
+           "remarks":"No remarks",
+           "is_approved":true,
+           "is_completed":true,
+           "product_id":2,
+           "stock_template_id":1
+          }
+    }
+  ] 

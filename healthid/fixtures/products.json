@@ -1,0 +1,137 @@
+[
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "prescription"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "otc"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "daily_essentials"
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "beauty"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 1,
+    "fields": {
+      "name": "tablets"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 2,
+    "fields": {
+      "name": "syrup"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 3,
+    "fields": {
+      "name": "bottles"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 4,
+    "fields": {
+      "name": "packs"
+    }
+  },
+  {
+    "model": "products.dispensingsize",
+    "pk": 5,
+    "fields": {
+      "name": "sachet"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "product_category": 1,
+      "product_name": "Pandol",
+      "dispensing_size": 1,
+      "sku_number": "000002",
+      "is_approved": false,
+      "description": "painkiller",
+      "brand": "paracetamol",
+      "manufacturer": "Harmon",
+      "vat_status": true,
+      "sales_price": "1400.00",
+      "nearest_expiry_date": null,
+      "preferred_supplier": "1",
+      "backup_supplier": "1",
+      "markup": 25,
+      "auto_price": false,
+      "loyalty_weight": 0,
+      "parent": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "product_category": 1,
+      "product_name": "Cold cap",
+      "dispensing_size": 1,
+      "sku_number": "000003",
+      "is_approved": true,
+      "description": "forever younger",
+      "brand": "ventolinllke",
+      "manufacturer": "Harmon",
+      "vat_status": true,
+      "sales_price": "1400.00",
+      "nearest_expiry_date": null,
+      "preferred_supplier": "1",
+      "backup_supplier": "1",
+      "markup": 25,
+      "auto_price": false,
+      "loyalty_weight": 0,
+      "parent": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "product_category": 1,
+      "product_name": "Paracetamol2",
+      "dispensing_size": 1,
+      "sku_number": "000008",
+      "is_approved": false,
+      "description": "first treatment people try for mild to moderate pain",
+      "brand": "ventolinllke",
+      "manufacturer": "Harmon Northrop",
+      "vat_status": true,
+      "sales_price": "1000.00",
+      "nearest_expiry_date": null,
+      "preferred_supplier": "1",
+      "backup_supplier": "1",
+      "markup": 25,
+      "auto_price": false,
+      "loyalty_weight": 0,
+      "parent": null,
+      "is_active": true
+    }
+  }
+]

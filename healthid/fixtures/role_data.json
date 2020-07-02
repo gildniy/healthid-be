@@ -1,0 +1,30 @@
+[
+  {
+    "model": "authentication.role",
+    "pk": "adm000001",
+    "fields": {
+      "name": "Master Admin"
+    }
+  },
+  {
+    "model": "authentication.role",
+    "pk": "mng000001",
+    "fields": {
+      "name": "Manager"
+    }
+  },
+  {
+    "model": "authentication.role",
+    "pk": "ops000001",
+    "fields": {
+      "name": "Operations Admin"
+    }
+  },
+  {
+    "model": "authentication.role",
+    "pk": "cas000001",
+    "fields": {
+      "name": "Cashier"
+    }
+  }
+]

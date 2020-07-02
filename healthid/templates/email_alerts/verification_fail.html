@@ -1,0 +1,14 @@
+{% extends 'email_alerts/email_base.html' %} {% block inner_content %}
+<div>
+  <div class="email_body">
+    <br />
+    {% if link %}
+    <a href="{{ link }}">
+      <div class="verify_button">
+        <h2 style="font-size: 15px;">LOG IN</h2>
+      </div>
+    </a>
+    {% endif%}
+  </div>
+</div>
+{% endblock inner_content %}

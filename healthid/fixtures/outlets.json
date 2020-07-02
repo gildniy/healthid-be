@@ -1,0 +1,34 @@
+[
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": { "name": "Kampala", "country": 227 }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 2,
+    "fields": { "name": "Entebbe", "country": 227 }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 3,
+    "fields": { "name": "Nairobi", "country": 114 }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 4,
+    "fields": { "name": "Lagos", "country": 160 }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 5,
+    "fields": { "name": "Kisumu", "country": 114 }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 6,
+    "fields": { "name": "Abuja", "country": 160 }
+  },
+  { "model": "outlets.outletkind", "pk": 1, "fields": { "name": "warehouse" } },
+  { "model": "outlets.outletkind", "pk": 2, "fields": { "name": "storefront" } }
+]

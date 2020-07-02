@@ -1,0 +1,15 @@
+[
+  {
+    "model": "consultation.consultationcatalogue",
+    "pk": 1,
+    "fields": {
+      "consultation_name": "Inquiry for panadol",
+      "approved_delivery_formats": ["In_Person"],
+      "description": "You need to take two tablets of panadol every 8 hours",
+      "price_per_session": 5000,
+      "minutes_per_session": 300,
+      "consultant_role": "DOCTOR",
+      "business": "112t0mti8"
+    }
+  }
+]

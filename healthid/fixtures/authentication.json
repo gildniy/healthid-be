@@ -1,0 +1,71 @@
+[
+  {
+    "model": "authentication.user",
+    "pk": "aul5xrp73",
+    "fields": {
+      "last_login": null,
+      "email": "admin@example.com",
+      "password": "pbkdf2_sha256$120000$P3KswX6ny17M$HaHKRjJ4aYa4wyz8JvaRb399YK55bhxsUz9se9q9LP8=",
+      "mobile_number": "+2348000000001",
+      "is_active": true,
+      "is_superuser": false,
+      "first_name": null,
+      "last_name": null,
+      "username": null,
+      "secondary_email": null,
+      "secondary_phone_number": null,
+      "created_at": "2019-03-30",
+      "is_admin": false,
+      "role": "adm000001",
+      "is_staff": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authentication.user",
+    "pk": "aul5xrp75",
+    "fields": {
+      "last_login": null,
+      "email": "manager@example.com",
+      "password": "pbkdf2_sha256$120000$P3KswX6ny17M$HaHKRjJ4aYa4wyz8JvaRb399YK55bhxsUz9se9q9LP8=",
+      "mobile_number": "+2348000000002",
+      "is_active": true,
+      "is_superuser": false,
+      "first_name": null,
+      "last_name": null,
+      "username": null,
+      "secondary_email": null,
+      "secondary_phone_number": null,
+      "created_at": "2019-03-30",
+      "is_admin": false,
+      "role": "mng000001",
+      "is_staff": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authentication.user",
+    "pk": "aul5xrp74",
+    "fields": {
+      "last_login": null,
+      "email": "cashier@example.com",
+      "password": "pbkdf2_sha256$120000$P3KswX6ny17M$HaHKRjJ4aYa4wyz8JvaRb399YK55bhxsUz9se9q9LP8=",
+      "mobile_number": "+2348000000003",
+      "is_active": true,
+      "is_superuser": false,
+      "first_name": null,
+      "last_name": null,
+      "username": null,
+      "secondary_email": null,
+      "secondary_phone_number": null,
+      "created_at": "2019-03-30",
+      "is_admin": false,
+      "role": "cas000001",
+      "is_staff": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

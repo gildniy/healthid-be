@@ -1,0 +1,92 @@
+[
+  {
+    "model": "authentication.user",
+    "pk": "aul5xrp73",
+    "fields": {
+      "last_login": null,
+      "email": "you.for@example.com",
+      "password": "pbkdf2_sha256$120000$P3KswX6ny17M$HaHKRjJ4aYa4wyz8JvaRb399YK55bhxsUz9se9q9LP8=",
+      "mobile_number": "254786299914",
+      "is_active": true,
+      "is_superuser": false,
+      "first_name": null,
+      "last_name": null,
+      "username": null,
+      "secondary_email": null,
+      "secondary_phone_number": null,
+      "created_at": "2019-03-30",
+      "is_admin": false,
+      "is_staff": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "outlets.country",
+    "pk": 1,
+    "fields": {
+      "name": "okay"
+    }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": {
+      "name": "okay",
+      "country": 1
+    }
+  },
+  { "model": "orders.tier", "pk": 1, "fields": { "name": "manufacturer" } },
+  { "model": "orders.tier", "pk": 2, "fields": { "name": "importer" } },
+  { "model": "orders.tier", "pk": 3, "fields": { "name": "1t wholesale" } },
+  { "model": "orders.tier", "pk": 4, "fields": { "name": "2t wholesaler" } },
+  { "model": "orders.tier", "pk": 5, "fields": { "name": "3t+ wholesaler" } },
+  {
+    "model": "orders.paymentterms",
+    "pk": 1,
+    "fields": { "name": "cash on delivery" }
+  },
+  {
+    "model": "orders.paymentterms",
+    "pk": 2,
+    "fields": { "name": "on credit" }
+  },
+  { "model": "orders.paymentterms", "pk": 3, "fields": { "name": "Cash" } },
+  { "model": "orders.paymentterms", "pk": 4, "fields": { "name": "Credit" } },
+  {
+    "model": "orders.suppliers",
+    "pk": 4,
+    "fields": {
+      "name": "shadik2.",
+      "user_id": "aul5xrp73",
+      "tier": 1,
+      "supplier_id": "S-SHA273"
+    }
+  },
+  {
+    "model": "orders.supplierscontacts",
+    "pk": 4,
+    "fields": {
+      "email": "email2@ntale.com",
+      "mobile_number": "0702260027",
+      "country": 1,
+      "address_line_1": "address",
+      "address_line_2": "addressline2",
+      "lga": "lga",
+      "city": 1,
+      "supplier_id": 4
+    }
+  },
+  {
+    "model": "orders.suppliersmeta",
+    "pk": 4,
+    "fields": {
+      "display_name": "shadik2.",
+      "logo": "logo",
+      "commentary": "no comment",
+      "payment_terms": "ON_CREDIT",
+      "credit_days": 4,
+      "supplier_id": 4
+    }
+  }
+]

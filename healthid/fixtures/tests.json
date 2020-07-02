@@ -1,0 +1,45 @@
+[
+  {
+    "model": "outlets.country",
+    "pk": 1,
+    "fields": {
+      "name": "Uganda"
+    }
+  },
+  {
+    "model": "outlets.city",
+    "pk": 1,
+    "fields": {
+      "name": "Kampala",
+      "country": 1
+    }
+  },
+  {
+    "model": "orders.tier",
+    "pk": 1,
+    "fields": {
+      "name": "manufacturer"
+    }
+  },
+  {
+    "model": "orders.tier",
+    "pk": 2,
+    "fields": {
+      "name": "3t+ wholesaler"
+    }
+  },
+  {
+    "model": "orders.paymentterms",
+    "pk": 1,
+    "fields": {
+      "name": "cash on delivery"
+    }
+  },
+  {
+    "model": "orders.paymentterms",
+    "pk": 2,
+    "fields": {
+      "name": "on credit"
+    }
+  }
+]

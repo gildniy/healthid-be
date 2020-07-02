@@ -1,0 +1,19 @@
+[
+  {
+    "model": "business.business",
+    "pk": "112t0mti8",
+    "fields": {
+      "trading_name": "Eco Pharm",
+      "legal_name": "Eco Pharm",
+      "address_line_1": "30 Bukoto Street",
+      "phone_number": "+2567099988",
+      "business_email": "eco.pharm.andela.com",
+      "website": "andela.com",
+      "facebook": "andela.facebook.com",
+      "twitter": "andela@twitter.com",
+      "instagram": "instragram.andela.com",
+      "logo": "rtyuio/tyuio/rtyuhij",
+      "user": "aul5xrp73"
+    }
+  }
+]

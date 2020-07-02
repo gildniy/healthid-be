@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Health ID stock counts alert</title>
+    <style>
+      @font-face {
+        font-family: Avenir;
+        src: url('https://res.cloudinary.com/health-id/raw/upload/v1554202284/avenir.ttc');
+      }
+      section {
+        font-family: Avenir;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+      }
+
+      .healthid_logo {
+        width: 270px;
+        height: 70px;
+        margin-top: 30px;
+      }
+
+      .healthid_envelope {
+        background-color: #424242;
+        height: 280px;
+      }
+
+      .healthid_envelope img {
+        margin-top: 30px;
+        width: 135px;
+      }
+
+      .verify {
+        color: #faf33e;
+        font-size: 25px;
+      }
+      .password {
+        margin-top: 15px;
+      }
+
+      .small_text {
+        font-size: 16px;
+        margin-top: 14px;
+        color: #424242;
+      }
+
+      .email_body {
+        color: #424242;
+        margin: auto;
+        width: 40%;
+      }
+
+      .email_body_cont {
+        display: flex;
+      }
+
+      .verify_button {
+        background-color: #faf33e;
+        color: #424242;
+        padding: 2px 12px;
+        font-size: 20px;
+        margin-top: 40px;
+      }
+
+      .email_body_a {
+        color: #a3a3a3;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      .email_body_b1 {
+        margin-left: 30px;
+      }
+      .email_body_b2 {
+        margin-left: 17px;
+      }
+
+      .email_body_b {
+        color: #424242;
+        margin-left: 35px;
+      }
+
+      .footer_text {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 812px) {
+        .small_text {
+          font-size: 12px;
+        }
+        .email_body {
+          width: 100%;
+          font-size: 13px;
+        }
+        .email_body_b1 {
+          margin-left: 50px;
+        }
+
+        .email_body_b {
+          color: #424242;
+          margin-left: 10px;
+        }
+        .footer_text {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <img
+          class="healthid_logo"
+          src="https://res.cloudinary.com/health-id/image/upload/v1554202200/HealthID_full_logo.png"
+          alt="healthID_logo"
+        />
+      </div>
+      <div class="healthid_envelope">
+        <img
+          src="https://res.cloudinary.com/health-id/image/upload/v1554202183/Email_envelop_icon.png"
+          alt="healthID_envelope"
+        />
+        <div>
+          <h2 class="verify">Stock counts</h2>
+        </div>
+      </div>
+      <div class="small_text">
+        <p>{{ template }}</p>
+      </div>
+      <div>
+        <div class="email_body">
+          <div class="email_body_cont">
+            <div class="email_body_a">By:</div>
+            <div class="email_body_b">{{ by }}</div>
+          </div>
+
+          <div class="email_body_cont password">
+            <div class="email_body_a">Created at:</div>
+            <div class="email_body_b2">{{ created_at }}</div>
+          </div>
+          <br />
+        </div>
+      </div>
+
+      <p class="footer_text">
+        Please check with your outlet's calendar for more details
+        <span style="color:#FAF33E"><u>CALENDAR</u></span>
+      </p>
+    </section>
+  </body>
+</html>

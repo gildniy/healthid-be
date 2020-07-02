@@ -1,0 +1,35 @@
+{% extends 'email_alerts/sales_report/base_email.html' %}
+{% block inner_content %}
+<section class='health-section'>
+    <div>
+        <img class="healthid_logo"
+            src="https://res.cloudinary.com/health-id/image/upload/v1554202200/HealthID_full_logo.png"
+            alt="healthID_logo">
+    </div>
+    <div class="healthid_envelope">
+        <img src="https://res.cloudinary.com/health-id/image/upload/v1582555704/sales_report_envelope.png"
+            alt="healthID_envelope">
+        <div>
+            <h2 class="verify">Sales Report With Attachment</h2>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div class="bg-holder">
+                <h5 class="head-text">Sales Report Summary {{ message.date }}</h5>
+            </div>
+            <div class="email_body">
+                <p>
+                    {{ message.body }}
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <p class="footer_text">
+        Didn't create an account? Feel free to ignore this email or
+        <span style="color:#FAF33E; margin-top: 15px;"><a>CONTACT US</a></span> if you have any
+    </p>
+</section>
+{% endblock inner_content %}

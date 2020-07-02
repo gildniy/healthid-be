@@ -1,0 +1,23 @@
+upload_invoice = '''
+mutation{{
+uploadInvoice(
+  orderId:{order_id},
+  invoiceFile:"{image_url}")
+  {{
+invoice{{
+      id
+      order{{
+        id
+        orderNumber
+        deliveryDate
+      }}
+      outlet{{
+        id
+        name
+      }}
+      imageUrl
+    }}
+    message
+  }}
+}}
+'''

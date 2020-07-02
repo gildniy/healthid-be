@@ -1,0 +1,28 @@
+{% extends 'email_alerts/email_base.html' %}
+{% block inner_content %}
+<div>
+  <div class="email_body">
+    <div class="email_body_cont">
+      <div class="email_body_a">Email:</div>
+      <div class="email_body_b">{{ email }}</div>
+    </div>
+    <br>
+    <div class="email_body_cont">
+      <div class="email_body_a">Password:</div>
+      <div class="email_body_b">{{ password }}</div>
+    </div>
+    <br>
+    <div class="email_body_cont">
+      <div class="email_body_a">Link:</div>
+      <div class="email_body_b1">{{ domain }}{% url 'activate'  uidb64=uid token=token %}</span>
+      </div>
+
+    </div>
+    <a href="{{ domain }}{% url 'activate'  uidb64=uid token=token %}">
+      <div class="verify_button">
+        <h2 style="font-size: 15px;">VERIFY</h2>
+      </div>
+    </a>
+  </div>
+</div>
+{% endblock inner_content %}

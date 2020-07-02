@@ -1,0 +1,30 @@
+[
+    {
+        "model":"events.eventtype",
+        "pk":"852k75gnn",
+        "fields":{
+           "name":"Business"
+        }
+     },
+     {
+        "model":"events.eventtype",
+        "pk":"16lbwaaf3",
+        "fields":{
+           "name":"Outlet"
+        }
+     },
+     {
+        "model": "events.eventtype",
+        "pk": "xaf36lbw1",
+        "fields": {
+           "name": "Personal"
+        }
+     },
+     {
+      "model": "events.eventtype",
+      "pk": "x7f36lbw1",
+      "fields": {
+         "name": "Consultation"
+      }
+   }
+  ]

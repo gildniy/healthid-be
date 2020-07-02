@@ -1,0 +1,1 @@
+[{"model": "orders.order", "pk":1, "fields":{"order_number": 8484848, "name":"shadik", "product_autofill":"True", "supplier_autofill": "True", "delivery_date": "2012-12-12", "destination_outlet": 1 }}]
